@@ -19,19 +19,14 @@ public class Main {
                 35.00
         );
 
+        Agendamento agendamento = new Agendamento(
+                cliente,
+                barbeiro,
+                servico,
+                "05/10/2026",
+                "14:00"
+        );
 
-        System.out.println("================================");
-        System.out.println("       SISTEMA BARBEARIA");
-        System.out.println("================================");
-
-        cliente.exibirDados();
-
-        System.out.println();
-
-        barbeiro.exibirDados();
-
-        System.out.println();
-
-        servico.exibirDados();
+        agendamento.exibirAgendamento();
     }
 }
