@@ -24,6 +24,10 @@ public class Agendamento {
         this.status = "Agendado";
     }
 
+    public String getStatus() {
+        return status;
+    }
+
     public void exibirAgendamento() {
 
         System.out.println("================================");
