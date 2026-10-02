@@ -7,6 +7,7 @@ public class Agendamento {
     private Servico servico;
     private String data;
     private String horario;
+    private String status;
 
     public Agendamento(
             Cliente cliente,
@@ -20,6 +21,7 @@ public class Agendamento {
         this.servico = servico;
         this.data = data;
         this.horario = horario;
+        this.status = "Agendado";
     }
 
     public void exibirAgendamento() {
@@ -33,6 +35,7 @@ public class Agendamento {
         System.out.println("Serviço: " + servico.getNome());
         System.out.println("Data: " + data);
         System.out.println("Horário: " + horario);
+        System.out.println("Status: " + status);
         System.out.printf("Valor: R$ %.2f%n", servico.getValor());
     }
 }
