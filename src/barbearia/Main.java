@@ -14,6 +14,12 @@ public class Main {
                 "Corte masculino"
         );
 
+        Servico servico = new Servico(
+                "Corte de cabelo",
+                35.00
+        );
+
+
         System.out.println("================================");
         System.out.println("       SISTEMA BARBEARIA");
         System.out.println("================================");
@@ -23,5 +29,9 @@ public class Main {
         System.out.println();
 
         barbeiro.exibirDados();
+
+        System.out.println();
+
+        servico.exibirDados();
     }
 }
