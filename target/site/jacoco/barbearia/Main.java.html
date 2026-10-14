@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="pt"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Main.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">barbearia</a> &gt; <a href="index.source.html" class="el_package">barbearia</a> &gt; <span class="el_source">Main.java</span></div><h1>Main.java</h1><pre class="source lang-java linenums">package barbearia;
+
+<span class="nc" id="L3">public class Main {</span>
+
+    public static void main(String[] args) {
+
+<span class="fc" id="L7">        Cliente cliente = new Cliente(</span>
+                &quot;João&quot;,
+                &quot;(43) 99999-9999&quot;
+        );
+
+<span class="fc" id="L12">        Barbeiro barbeiro = new Barbeiro(</span>
+                &quot;Carlos&quot;,
+                &quot;Corte masculino&quot;
+        );
+
+<span class="fc" id="L17">        Servico servico = new Servico(</span>
+                &quot;Corte de cabelo&quot;,
+                35.00
+        );
+
+<span class="fc" id="L22">        Agendamento agendamento = new Agendamento(</span>
+                cliente,
+                barbeiro,
+                servico,
+                &quot;05/10/2026&quot;,
+                &quot;14:00&quot;
+        );
+
+<span class="fc" id="L30">        agendamento.exibirAgendamento();</span>
+<span class="fc" id="L31">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.12.202403310830</span></div></body></html>

@@ -1,0 +1,6 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+barbearia,barbearia,Agendamento,0,77,0,0,0,19,0,2,0,2
+barbearia,barbearia,Cliente,0,26,0,0,0,9,0,4,0,4
+barbearia,barbearia,Barbeiro,0,26,0,0,0,9,0,4,0,4
+barbearia,barbearia,Main,3,30,0,0,1,6,1,1,1,1
+barbearia,barbearia,Servico,0,33,0,0,0,9,0,4,0,4
